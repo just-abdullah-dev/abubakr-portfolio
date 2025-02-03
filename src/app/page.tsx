@@ -239,7 +239,7 @@ export default function Home() {
               </div>
             </div>
             <div data-aos="fade-left" className="w-full md:w-2/4 px-5 md:px-10">
-              <h2 className="text-2xl underline">Ribbon:</h2>
+              <h2 className="text-2xl underline">Soft Skills:</h2>
 
               <div>
                 <label className="inline-block mt-3 mb-1">

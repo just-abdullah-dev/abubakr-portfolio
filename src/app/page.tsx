@@ -341,8 +341,8 @@ export default function Home() {
 
                     <ul data-aos="fade-up">
                         <li className="my-2"><a className="flex gap-4 items-center" href="tel:+923153987478"><HiPhone className="bg-orange-500 text-white text-sm w-10 h-10 p-2 rounded-full flex items-center justify-center"/>  +92 3153987478</a></li>
-                        <li className="my-2"><a className="flex gap-4 items-center" href="mailto:codewithshabbir07@gmail.com"><HiMail className="bg-orange-500 text-white text-sm w-10 h-10 p-2 rounded-full flex items-center justify-center"/> codewithshabbir07@gmail.com</a></li>
-                        <li className="my-2"><a className="flex gap-4 items-center" target="_blank" href="https://github.com/codewithshabbir"> <FaGithub className="bg-orange-500 text-white text-sm w-10 h-10 p-2 rounded-full flex items-center justify-center"/> codewithshabbir</a></li>
+                        <li className="my-2"><a className="flex gap-4 items-center" href="mailto:abubakr07@gmail.com"><HiMail className="bg-orange-500 text-white text-sm w-10 h-10 p-2 rounded-full flex items-center justify-center"/> abubakr07@gmail.com</a></li>
+                        <li className="my-2"><a className="flex gap-4 items-center" target="_blank" href="https://github.com/abubakr"> <FaGithub className="bg-orange-500 text-white text-sm w-10 h-10 p-2 rounded-full flex items-center justify-center"/> abubakr</a></li>
                     </ul>
                 </div>
                 <div className="col-span-12 md:col-span-6 flex justify-center">

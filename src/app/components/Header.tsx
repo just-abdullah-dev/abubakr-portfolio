@@ -111,8 +111,8 @@ const Header: React.FC = () => {
         {/* Mobile navigation */}
         <nav className="lg:hidden flex justify-between w-full items-center py-2">
           <div className="logo flex items-center">
-            <a href="#">
-              <Image src={logo} alt="Logo" />
+            <a href="#" className=" font-bold text-white ">
+            Abu Bakar
             </a>
           </div>
           <HiOutlineMenu

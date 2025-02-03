@@ -91,8 +91,8 @@ const Header: React.FC = () => {
             </li>
           </ul>
           <div className="logo flex items-center">
-            <a href="#">
-              <Image src={logo} alt="Logo" />
+            <a href="#" className=" font-bold text-white md:text-xl">
+            Abu Bakar
             </a>
           </div>
           <ul className="flex items-center">

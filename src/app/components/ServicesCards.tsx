@@ -1,8 +1,8 @@
 import Image, {StaticImageData} from "next/image";
 import React from "react";
-import project1 from "/public/images/services/frontend-web-development.png";
-import project2 from "/public/images/services/wordPress-website-creation.png";
-import project3 from "/public/images/services/figma-to-HTML-conversion.png";
+import project1 from "/public/images/services/s1.png";
+import project2 from "/public/images/services/s2.png";
+import project3 from "/public/images/services/s3.png";
 
 interface ServiceItem {
     id: number,
@@ -13,17 +13,17 @@ interface ServiceItem {
 const servicesData:ServiceItem[] = [
   {
     id: 1,
-    title: "Frontend Web Development",
+    title: "Video Editing",
     image: project1,
   },
   {
     id: 2,
-    title: "WordPress Website Creation",
+    title: "Thumbnail Design",
     image: project2,
   },
   {
     id: 3,
-    title: "Figma to HTML Conversion",
+    title: "Poster Design",
     image: project3,
   },
 ];
@@ -37,7 +37,7 @@ const ServicesCards:React.FC = () => {
           key={service.id}
           className="col-span-12 sm:col-span-6 md:col-span-6 lg:col-span-4 inverted-radius relative border shadow-md w-full"
         >
-          <h2 className="text-lg md:text-sm lg:text-md xl:text-lg p-5 text-white font-bold">
+          <h2 className="text-lg md:text-sm lg:text-xl xl:text-2xl p-5 text-white font-bold">
             {service.title}
           </h2>
           <hr />

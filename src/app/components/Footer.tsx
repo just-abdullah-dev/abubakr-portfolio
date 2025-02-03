@@ -1,37 +1,70 @@
-import React from 'react';
-import Image from 'next/image';
-import { FaGithub, FaLinkedin, FaCodepen, FaPhone, FaGlobe, FaEnvelope, FaMap } from 'react-icons/fa';
-import logo from '/public/images/muhammad-shabbir-logo.png';
-import BackToTop from './BackToTop';
+import React from "react";
+import Image from "next/image";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaCodepen,
+  FaPhone,
+  FaGlobe,
+  FaEnvelope,
+  FaMap,
+  FaWhatsapp,
+  FaInstagram,
+  FaFacebook,
+  FaAddressBook,
+} from "react-icons/fa";
+import logo from "/public/images/muhammad-shabbir-logo.png";
+import BackToTop from "./BackToTop";
+import { HiMail } from "react-icons/hi";
 
 const Footer: React.FC = () => {
   return (
     <>
-      <BackToTop/>
+      <BackToTop />
       <footer className="px-4 lg:px-20">
         <div className="bg-black w-full rounded-tl-[30px] rounded-tr-[30px] p-10 pb-0">
           <h2>Let's Connect there</h2>
           <div className="grid grid-cols-12 gap-6 border-b-[1px] pb-6">
             <div className="col-span-12 lg:col-span-4">
               <div className="logo">
-                <a href="#">
-                  <Image src={logo} alt="Logo" />
+                <a href="#" className=" font-bold text-white md:text-xl">
+                Abu Bakar
                 </a>
-                <p className="text-gray-300 text-sm">
-                  Hi, I'm Muhammad Shabbir, a passionate web developer with expertise in creating modern, responsive websites. With a strong background in HTML, CSS, JavaScript, and WordPress, I specialize in delivering high-quality web solutions. Explore my portfolio to see my latest projects and get in touch for collaborations!
-                </p>
-                
               </div>
             </div>
             <div className="col-span-12 lg:col-span-2">
               <h2 className="text-white mb-4 text-xl">Navigation</h2>
               <ul>
-                <li className="leading-6"><a className="text-sm text-gray-300" href="#">Home</a></li>
-                <li className="leading-6"><a className="text-sm text-gray-300" href="#about-me">About</a></li>
-                <li className="leading-6"><a className="text-sm text-gray-300" href="#service">Service</a></li>
-                <li className="leading-6"><a className="text-sm text-gray-300" href="#skills">Skills</a></li>
-                <li className="leading-6"><a className="text-sm text-gray-300" href="#projects">Project</a></li>
-                <li className="leading-6"><a className="text-sm text-gray-300" href="#contact">Contact</a></li>
+                <li className="leading-6">
+                  <a className="text-sm text-gray-300" href="#">
+                    Home
+                  </a>
+                </li>
+                <li className="leading-6">
+                  <a className="text-sm text-gray-300" href="#about-me">
+                    About
+                  </a>
+                </li>
+                <li className="leading-6">
+                  <a className="text-sm text-gray-300" href="#service">
+                    Service
+                  </a>
+                </li>
+                <li className="leading-6">
+                  <a className="text-sm text-gray-300" href="#skills">
+                    Skills
+                  </a>
+                </li>
+                <li className="leading-6">
+                  <a className="text-sm text-gray-300" href="#projects">
+                    Project
+                  </a>
+                </li>
+                <li className="leading-6">
+                  <a className="text-sm text-gray-300" href="#contact">
+                    Contact
+                  </a>
+                </li>
               </ul>
             </div>
             <div className="col-span-12 lg:col-span-3">
@@ -39,74 +72,83 @@ const Footer: React.FC = () => {
               <ul>
                 <li className="flex items-center gap-2 pb-2 leading-6">
                   <FaPhone className="text-white" />
-                  <a className="text-sm text-gray-300" href="tel:+923153987478">+92 3153987478</a>
-                </li>
-                <li className="flex items-center gap-2 pb-2 leading-6">
-                  <FaGlobe className="text-white" />
-                  <a className="text-sm text-gray-300" href="https://codewithshabbir.vercel.app/">My Website</a>
-                </li>
-                <li className="flex items-center gap-2 pb-2 leading-6">
-                  <FaEnvelope className="text-white" />
-                  <a className="text-sm text-gray-300" href="mailto:codewithshabbir07@gmail.com">codewithshabbir07@gmail.com
+                  <a className="text-sm text-gray-300" href="tel:+923335079649">
+                    +92 333 5079649
                   </a>
                 </li>
                 <li className="flex items-center gap-2 pb-2 leading-6">
-                  <FaMap className="text-white" />
-                  <p className="text-sm text-gray-300">Karachi, Pakistan</p>
+                  <FaAddressBook className="text-white" />
+                  <a className="text-sm text-gray-300" href="tel:+923335079649">
+                    Haripur, KPK
+                  </a>
                 </li>
               </ul>
             </div>
             <div className="col-span-12 lg:col-span-3">
               <h2 className="text-white mb-4 text-xl">My Social Links</h2>
               <ul className="social-icons-container flex gap-3 items-center relative">
-                <li className="group relative border-2 border-white rounded-full">
+                <li className="my-2">
                   <a
-                    href="https://github.com/codewithshabbir"
-                    className="social-link github relative w-10 h-10 text-white flex items-center justify-center rounded-full overflow-hidden"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    className="flex gap-4 items-center"
+                    href="mailto:abu230513@gmail.com"
                   >
-                    <FaGithub className="z-10 icon" />
+                    <HiMail className="bg-orange-500 text-white text-sm w-10 h-10 p-2 rounded-full flex items-center justify-center" />
                   </a>
                 </li>
-                <li className="relative border-2 border-white rounded-full">
+                <li className="my-2">
                   <a
-                    href="https://codepen.io/codewithshabbir"
-                    className="social-link codepen relative w-10 h-10 text-white flex items-center justify-center rounded-full overflow-hidden"
+                    className="flex gap-4 items-center"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    href="https://www.facebook.com/abubakar.baig.524"
                   >
-                    <FaCodepen className="z-10 icon" />
+                    {" "}
+                    <FaFacebook className="bg-orange-500 text-white text-sm w-10 h-10 p-2 rounded-full flex items-center justify-center" />
                   </a>
                 </li>
-                <li className="relative border-2 border-white rounded-full">
+                <li className="my-2">
                   <a
-                    href="https://www.linkedin.com"
-                    className="social-link linkedin relative w-10 h-10 text-white flex items-center justify-center rounded-full overflow-hidden"
+                    className="flex gap-4 items-center"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    href="https://www.instagram.com/abu_bakar_baig3"
                   >
-                    <FaLinkedin className="z-10 icon" />
+                    {" "}
+                    <FaInstagram className="bg-orange-500 text-white text-sm w-10 h-10 p-2 rounded-full flex items-center justify-center" />
+                  </a>
+                </li>
+                <li className="my-2">
+                  <a
+                    className="flex gap-4 items-center"
+                    target="_blank"
+                    href="https://www.linkedin.com/in/abu-bakar-baig-196528305"
+                  >
+                    {" "}
+                    <FaLinkedin className="bg-orange-500 text-white text-sm w-10 h-10 p-2 rounded-full flex items-center justify-center" />
+                  </a>
+                </li>
+                <li className="my-2">
+                  <a
+                    className="flex gap-4 items-center"
+                    target="_blank"
+                    href="https://wa.me/qr/CZAOVMQCPMQBE1"
+                  >
+                    {" "}
+                    <FaWhatsapp className="bg-orange-500 text-white text-sm w-10 h-10 p-2 rounded-full flex items-center justify-center" />
                   </a>
                 </li>
               </ul>
             </div>
           </div>
           <p className="text-center py-5 text-white text-sm">
-            © <span id="copyrightCurrentYear" className="mr-1">2024</span> 
-            <b className="font-bold">Muhammad Shabbir</b>. All Rights Reserved. 
-            <br />
-            <a href="https://www.linkedin.com/in/codewithshabbir/" 
-              className="text-orange-500 hover:text-orange-400 font-medium"
-              target="_blank" 
-              rel="noopener noreferrer">
-              Connect with me on LinkedIn
-            </a>
+            ©{" "}
+            <span id="copyrightCurrentYear" className="mr-1">
+              2025
+            </span>
+            <b className="font-bold">Abu Bakar</b>. All Rights Reserved.
           </p>
         </div>
       </footer>
     </>
   );
-}
+};
 
 export default Footer;
